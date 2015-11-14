@@ -32,25 +32,31 @@
         <activity
             android:name=".Activity.SplashActivity"
             android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter></activity>
+        </activity>
 
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" >
         </activity>
 
-        <activity android:name=".Activity.OrderActivity"
+        <activity
+            android:name=".Activity.OrderActivity"
             android:screenOrientation="portrait">
-
         </activity>
 
         <activity
             android:name=".Activity.StoreActivity"
             android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Activity.CheckMenuActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <activity

@@ -66,6 +66,13 @@ public class StoreActivity extends AppCompatActivity {
 
         tvTitle.setText("갓덴스시");
 
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+            }
+        });
+
         searchView.setVisibility(View.GONE);
 
     }
@@ -80,7 +87,6 @@ public class StoreActivity extends AppCompatActivity {
 
     //0 main    //1 search
     void changeFragment(int i){
-
 
         switch (i){
             case 0:

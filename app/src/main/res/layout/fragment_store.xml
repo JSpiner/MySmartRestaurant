@@ -23,6 +23,7 @@
                 android:layout_height="220dp">
 
                 <FrameLayout
+                    android:background="#ffffff"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
@@ -34,11 +35,12 @@
                         android:layout_marginBottom="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_gravity="bottom|end"
+                        app:backgroundTint="#ffffff"
                         app:elevation="6dp"
                         app:pressedTranslationZ="12dp"/>
 
                     <fragment
-                        android:layout_marginBottom="35dp"
+                        android:layout_marginBottom="0dp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:id="@+id/map"
@@ -54,8 +56,10 @@
                 android:layout_height="match_parent">
 
                 <android.support.design.widget.TabLayout
-                    android:background="@color/colorPrimaryDark"
+                    android:background="#ffffff"
                     android:id="@+id/tab_main"
+                    app:tabTextColor="@color/colorAccent"
+                    app:tabSelectedTextColor="@color/colorAccent"
                     app:tabIndicatorColor="@color/colorAccent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
@@ -75,8 +79,8 @@
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="주문하기"
+        android:layout_height="55dp"
+        android:text="예약하러 가기"
         android:id="@+id/btn_menu_order"
         android:layout_gravity="bottom|center_horizontal" />
 </FrameLayout>

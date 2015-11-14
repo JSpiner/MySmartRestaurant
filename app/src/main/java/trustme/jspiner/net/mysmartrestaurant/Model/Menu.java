@@ -1,5 +1,6 @@
 package trustme.jspiner.net.mysmartrestaurant.Model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -15,5 +16,6 @@ public class Menu {
 
     public Menu(String menu){
         this.menu = menu;
+        this.items = new ArrayList<>();
     }
 }

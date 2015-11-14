@@ -41,7 +41,7 @@ public class RecomPagerAdapter1 extends PagerAdapter {
         ImageView imv3 = (ImageView)v.findViewById(R.id.iv_recomstore_3);
 
         Picasso.with(context)
-                .load(R.drawable.sample1)
+                .load(R.drawable.sample5)
                 .resize(400,400)
                 .centerCrop()
                 .into(imv1);

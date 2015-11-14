@@ -47,7 +47,7 @@ public class StoreMenuAdapter extends AnimatedExpandableListView.AnimatedExpanda
         if (convertView == null) {
             convertView = inflater.inflate(R.layout.item_menu_child,null);
         }
-        ((TextView)convertView.findViewById(R.id.tv_menu_subraw)).setText(item.menu);
+        ((TextView)convertView.findViewById(R.id.tv_submenu_title)).setText(item.menu);
 
         return convertView;
     }

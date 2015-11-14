@@ -8,6 +8,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ExpandableListView;
 import android.widget.ListView;
 
 import com.twotoasters.jazzylistview.JazzyListView;
@@ -85,7 +86,17 @@ public class StoreMenuFragment extends Fragment {
         StoreMenuAdapter adapter = new StoreMenuAdapter(context);
         adapter.setData(mList);
         listView.setAdapter(adapter);
-
+        listView.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
+            @Override
+            public boolean onGroupClick(ExpandableListView expandableListView, View view, int i, long l) {
+                if (listView.isGroupExpanded(i)) {
+                    listView.collapseGroupWithAnimation(i);
+                } else {
+                    listView.expandGroupWithAnimation(i);
+                }
+                return true;
+            }
+        });
     }
 
 }

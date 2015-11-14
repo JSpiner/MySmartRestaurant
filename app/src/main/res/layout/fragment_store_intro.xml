@@ -33,6 +33,7 @@
 
 
             <LinearLayout
+                android:layout_marginLeft="15dp"
                 android:orientation="vertical"
                 android:padding="5dp"
                 android:layout_width="match_parent"
@@ -72,20 +73,21 @@
             <View android:layout_width="match_parent"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="15dp"
-                android:layout_marginLeft="110dp"
+                android:layout_marginLeft="115dp"
                 android:layout_height="1px"
                 android:background="#000000"></View>
             <LinearLayout
-                android:layout_marginLeft="110dp"
+                android:layout_marginLeft="115dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <ImageView
 
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:src="@drawable/ic_alarm_add_black_18dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/ic_alarm_add_black_48dp"
                     />
                 <TextView
                     android:layout_marginLeft="5dp"
@@ -96,15 +98,17 @@
                     android:text="영업시간 10:00~18:00"/>
             </LinearLayout>
             <LinearLayout
-                android:layout_marginLeft="110dp"
+                android:layout_marginTop="3px"
+                android:layout_marginLeft="115dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <ImageView
 
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
                     android:src="@drawable/ic_add_shopping_cart_black_48dp"
                     />
                 <TextView
@@ -116,15 +120,17 @@
                     android:text="주문 가능 최소 금액 : 12000"/>
             </LinearLayout>
             <LinearLayout
-                android:layout_marginLeft="110dp"
+                android:layout_marginTop="3px"
+                android:layout_marginLeft="115dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <ImageView
 
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
                     android:src="@drawable/ic_call_black_48dp"
                     />
                 <TextView

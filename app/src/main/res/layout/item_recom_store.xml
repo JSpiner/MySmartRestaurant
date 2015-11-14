@@ -30,7 +30,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
                 <LinearLayout
-                    android:background="#aaababab"
+                    android:background="#aa000000"
                     android:layout_gravity="bottom"
                     android:layout_width="match_parent"
                     android:orientation="vertical"
@@ -41,14 +41,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColor="#efefef"
-                        android:text="홍대 대표간식 김밥"
+                        android:text="산까치냉면"
                         android:lines="1"
                         android:textSize="14dp" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColor="#bfbfbf"
-                        android:text="홍대 대표간식 김밥"
+                        android:text="대한민국 최고냉면집"
                         android:lines="1"
                         android:textSize="8dp" />
 
@@ -75,7 +75,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
                 <LinearLayout
-                    android:background="#aaababab"
+                    android:background="#aa000000"
                     android:layout_gravity="bottom"
                     android:layout_width="match_parent"
                     android:orientation="vertical"
@@ -120,7 +120,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
                 <LinearLayout
-                    android:background="#aaababab"
+                    android:background="#aa000000"
                     android:layout_gravity="bottom"
                     android:layout_width="match_parent"
                     android:orientation="vertical"
