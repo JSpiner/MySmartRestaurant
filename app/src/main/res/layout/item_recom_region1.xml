@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#efefef"
+
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#101010"
+                android:text="홍대 BEST 10 >"
+                android:textSize="18dp"
+                android:id="@+id/tv_recomregion1_title" />
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_marginLeft="3dp"
+                    android:id="@+id/iv_recomregion1_indic1"
+                    android:src="@drawable/radius_black"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp" />
+                <ImageView
+                    android:layout_marginLeft="3dp"
+                    android:id="@+id/iv_recomregion1_indic2"
+                    android:src="@drawable/radius_white"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp" />
+                <ImageView
+                    android:layout_marginLeft="3dp"
+                    android:id="@+id/iv_recomregion1_indic3"
+                    android:src="@drawable/radius_white"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp" />
+                <ImageView
+                    android:layout_marginLeft="3dp"
+                    android:id="@+id/iv_recomregion1_indic4"
+                    android:src="@drawable/radius_white"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp" />
+                <ImageView
+                    android:layout_marginLeft="3dp"
+                    android:id="@+id/iv_recomregion1_indic5"
+                    android:src="@drawable/radius_white"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v4.view.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/pager_recom1"
+                >
+
+            </android.support.v4.view.ViewPager>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
